@@ -1,0 +1,18 @@
+.root {
+  display: flex;
+  align-items: center;
+  padding: 20px 30px;
+  background-color: $header-color;
+}
+
+.link {
+  padding: 10px 25px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+.button {
+  @include btn;
+  margin-left: auto;
+}

@@ -1,0 +1,20 @@
+.root {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1280px;
+  min-height: 800px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  font-size: 18px;
+}
+
+.img {
+  width: 250px;
+  height: auto;
+  margin-right: 30px;
+  border: 10px solid $header-color;
+}
+
